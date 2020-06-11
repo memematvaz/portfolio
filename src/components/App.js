@@ -3,9 +3,6 @@ import '../styles/App.scss';
 import '../index.scss';
 
 
-import './Header.js';
-
-
 import Header from './Header';
 
 import { Route, Switch } from 'react-router-dom';
@@ -19,7 +16,7 @@ const App = () => (
     
 
 
-    <Route path="/about" />
+    <Route exact path="/About/" render={this.About}/>
   </Switch>
 </div>
 )

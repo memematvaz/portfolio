@@ -1,18 +1,22 @@
+
+
 .header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Maven Pro', sans-serif;
-
+    font-family: $primary-font;    
     font-size: 20px;
-
-    h1 {text-decoration: none;}
+    color: black;
 }
+
+
 
 
 @media (min-width: 768px) {
     .header {
         font-size: 32px;
+
+
     }
   }
   
