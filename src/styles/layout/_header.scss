@@ -1,28 +1,24 @@
 
-
 .header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: $primary-font;    
-    font-size: 20px;
-   
+    @include title
+    
 }
 
 
 
 @media (min-width: 768px) {
     .header {
-        font-size: 32px;
-
+        @include title-tablet
 
     }
   }
   
   @media (min-width: 1200px) {
     .header {
-        font-size: 40px;
-
+        @include title-pc
 
     }
   }
