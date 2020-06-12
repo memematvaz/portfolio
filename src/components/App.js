@@ -5,6 +5,7 @@ import '../index.scss';
 
 import Header from './Header';
 
+
 import { Route, Switch } from 'react-router-dom';
 
 const App = () => (
@@ -16,7 +17,11 @@ const App = () => (
     
 
 
-    <Route exact path="/About/" render={this.About}/>
+    <Route exact path="/about">
+    
+              <Header/>
+     </Route> 
+
   </Switch>
 </div>
 )

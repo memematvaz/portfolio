@@ -6,10 +6,10 @@ const Header = () => {
 
   return (
    <header class="header">
-    <Link to="/">
+    <Link className="link" to="/">
       <h1 class="title">María Mateo</h1>
     </Link>
-    <Link to="About.js">
+    <Link className="link" to="/about">
       <div>About</div>
     </Link>
        </header>
