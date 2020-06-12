@@ -10,10 +10,6 @@
 }
 
 
-.link {color:black;
-
-
-}
 
 @media (min-width: 768px) {
     .header {
@@ -24,5 +20,9 @@
   }
   
   @media (min-width: 1200px) {
+    .header {
+        font-size: 40px;
 
+
+    }
   }

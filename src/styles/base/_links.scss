@@ -1,0 +1,14 @@
+
+.link {
+    color:$primary-color;
+}
+
+.link:visited {
+    color:$primary-color;
+}
+.link:hover {
+   color: $second-color;
+}
+.link:active {
+    color: $second-color;
+}
