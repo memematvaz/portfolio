@@ -56,3 +56,13 @@ const App = () => (
 )
 
 export default App;
+
+//JS diferente según el ancho de la pantalla
+/* var anchura = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+if (anchura <= 480) {
+    // estás en un móvil en vertical
+} else {
+    // móvil en horizontal, tablet o desktop
+} */
+
+//alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 

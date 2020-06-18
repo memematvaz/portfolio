@@ -6,9 +6,9 @@
 .link:visited {
     color:$primary-color;
 }
-.link:hover {
+.link:hover,
+.link:active,
+.link:focus
+ {
    color: $second-color;
-}
-.link:active {
-    color: $second-color;
 }

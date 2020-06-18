@@ -9,7 +9,7 @@ const CODEPROJECTS =[
         image: {
             class:'imageProjectCode',
             alt:'Rick and Morty',
-            src:'../images/rickmorty.png',
+            src:'../images/rickmorty-red.png',
         },
         title: 'Rick and Morty Character filter',
         details: {
