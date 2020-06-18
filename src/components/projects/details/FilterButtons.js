@@ -10,7 +10,7 @@ const FilterButtons = () => {
         
           <div className="button-container">
             <button className="button button-all">
-              All
+              All projects
             </button>
             <button className="button button-React">
               React

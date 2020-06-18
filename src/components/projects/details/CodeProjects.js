@@ -14,20 +14,20 @@ const CodeProjects = () => {
               {projects} 
 
 
-              <div className="container">
-            <div className="div" >
-            <div className="text">I see you!</div>
-              <img className="img" src="https://www.interactius.com/wp-content/uploads/2017/09/foto6.png" title="Foto6" alt="Foto6"></img>
+              <div className="code-project--container-relative">
+            <div className="code-project--container" >
+            <div className="code-project--title">I see you!</div>
+              <img className="code-project--img" src="https://www.interactius.com/wp-content/uploads/2017/09/foto6.png" title="Foto6" alt="Foto6"></img>
 
       
           </div>
           </div>
 
 
-          <div className="container">
-            <div className="div" >
-            <div className="text">I see you!</div>
-              <img className="img" src="https://www.interactius.com/wp-content/uploads/2017/09/foto6.png" title="Foto6" alt="Foto6"></img>
+          <div className="code-project--container-relative">
+            <div className="code-project--container" >
+            <div className="code-project--title">I see you!</div>
+              <img className="code-project--img" src="https://www.interactius.com/wp-content/uploads/2017/09/foto6.png" title="Foto6" alt="Foto6"></img>
 
       
           </div>
