@@ -6,9 +6,9 @@ import '../index.scss';
 import Header from './Header';
 import About from './About'
 import Main from './Main'
-import CodeProjects from './projects/details/CodeProjects'
-import PhotoProjects from './projects/details/PhotoProjects'
-import VideoProjects from './projects/details/VideoProjects'
+import CodeProjects from './projects/code/CodeProjectsList'
+import PhotoProjects from './projects/PhotoProjects'
+import VideoProjects from './projects/VideoProjects'
 
 import {
   BrowserRouter as Router,

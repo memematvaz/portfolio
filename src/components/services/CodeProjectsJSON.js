@@ -6,11 +6,7 @@ const CODEPROJECTS =[
         api: true,
         localStorage: true,
         game: false,
-        image: {
-            class:'imageProjectCode',
-            alt:'Rick and Morty',
-            src:'../images/rickmorty-red.png',
-        },
+        image:'../images/rickmorty-red.png',
         title: 'Rick and Morty Character filter',
         details: {
                 tools:'React - SASS - API - LocalStorage',
@@ -29,11 +25,7 @@ const CODEPROJECTS =[
         api: false,
         localStorage: true,
         game: false,
-        image: {
-            class:'imageProjectCode',
-            alt:'Animal',
-            src:'../images/reactrockets.png',
-        },
+        image: '../images/reactrockets.png',
         title: 'React Rockets Card Creator',
         details: {
                 tools:'React - SASS - LocalStorage',
@@ -52,11 +44,7 @@ const CODEPROJECTS =[
         api: true,
         localStorage: false,
         game: false,
-        image: {
-            class:'imageProjectCode',
-            alt:'Crypto',
-            src:'../images/crypto.png',
-        },
+        image:'../images/crypto.png',
         title: 'Crypcurrencies',
         details: {
                 tools:'JS - Bootstrap - API',
@@ -75,11 +63,7 @@ const CODEPROJECTS =[
         api: false,
         localStorage: false,
         game: true,
-        image: {
-            class:'imageProjectCode',
-            alt:'Number',
-            src:'../images/number.png',
-        },
+        image:'../images/number.png',
         title: 'Guess the number',
         details: {
                 tools:'JS',
@@ -98,11 +82,7 @@ const CODEPROJECTS =[
         api: false,
         localStorage: false,
         game: false,
-        image: {
-            class:'imageProjectCode',
-            alt:'sheckies',
-            src:'../images/sheckies.png',
-        },
+        image: '../images/sheckies.png',
         title: 'Sheckies',
         details: {
                 tools:'SASS',
@@ -121,11 +101,7 @@ const CODEPROJECTS =[
         api: false,
         localStorage: false,
         game: true,
-        image: {
-            class:'imageProjectCode',
-            alt:'translator',
-            src:'../images/translator.png',
-        },
+        image:'../images/translator.png',
         title: 'Translator Mimimi',
         details: {
                 tools:'React',
@@ -144,11 +120,7 @@ const CODEPROJECTS =[
         api: false,
         localStorage: false,
         game: false,
-        image: {
-            class:'imageProjectCode',
-            alt:'landing',
-            src:'../images/landing.png',
-        },
+        image: '../images/landing.png',
         title: 'Landing page',
         details: {
                 tools:'SASS',
