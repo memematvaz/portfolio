@@ -6,8 +6,8 @@ const CODEPROJECTS =[
         api: true,
         localStorage: true,
         game: false,
-        image:'../images/rickmorty-red.png',
-        title: 'Rick and Morty Character filter',
+        image:'../../../images/photo.png',
+        title: 'Rick&Morty Character filter',
         details: {
                 tools:'React - SASS - API - LocalStorage',
                 description:'This application creates a catalogue of the characters from the TV series Rick&Morty extracting the information from an API. Find your favourite characters and get more information about them!',
@@ -120,7 +120,7 @@ const CODEPROJECTS =[
         api: false,
         localStorage: false,
         game: false,
-        image: '../images/landing.png',
+        image: '../../images/photo.png',
         title: 'Landing page',
         details: {
                 tools:'SASS',

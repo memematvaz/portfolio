@@ -35,7 +35,7 @@
 
 
 
-.code-project--list {
+.codeproject--list-container {
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -46,27 +46,46 @@
     @include title-tablet;
 
 
-        .code-project--container{
+        .card--CodeProject{
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
             align-items: center;
             padding: 20px;
-        }
 
-            .code-project--img{
-                display:block;
-                text-align: initial;
+            .card--text-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 80vw;
+                .card--title{
+                    @include title-tablet;
+                }
+                .card--text{
+                    @include text;
+                                        
+                }
+                .card--icon{
+                    display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                font-size: 15px;
+                }
+            }
+        
+
+            .card--img{
+
                 width: 200px;
                 height: 200px;
                
                 border-radius: 150px;
+                border-color: $second-color;
                 -webkit-border-radius: 150px;
                 -moz-border-radius: 150px; 
-
-         
+                @include text;
          
             }      
-      
+        }
 }
 
 
@@ -74,7 +93,7 @@
 
 
 @media (min-width: 768px) {
-    .code-project--list {
+    .codeproject--list-container {
         @include title-pc;
         flex-direction: column;
         padding: 20px;
@@ -84,7 +103,7 @@
 
           
           
-          .code-project--container{
+          .card--CodeProject{
               display: flex;
               flex-direction: row;
               align-items: center;
@@ -93,70 +112,49 @@
               width: 100%;
               position: relative;
               margin:  20px;
+              width: 80vw;
       
         
               .code-project--img{
                   display:block;
-                  position: absolute;
                   width: 200px;
                   height: 200px;
                   border-radius: 150px;
                   -webkit-border-radius: 150px;
                   -moz-border-radius: 150px; 
-                  border: 5px solid #de6262;
-
-                 
                
-                  z-index: -1;
-                  opacity: 0;
-          
-                  transition: all 1.5s;
-                  -webkit-transition: all 1.5s ease-in; // IE 9
-                  -moz-transition: all 1.5s ease-in; // Firefox
-                  -ms-transition: all 1.5s ease-in; // Safari and Chrome 
-                  -o-transition: all 1.5s ease-in; // Opera
-        
-           
               }      
-              .code-project--title{
-                  transform:translate(0px);
-                  -ms-transform:translate(0px); // IE 9 
-                  -moz-transform:translate(0px); // Firefox 
-                  -webkit-transform:translate(0px); // Safari and Chrome 
-                  -o-transform:translate(0px); // Opera 
-                  -webkit-transition: all 500ms ease-in-out; // IE 9
-                  -moz-transition: all 500ms ease-in-out; // Firefox
-                  -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
-                  -o-transition: all 500ms ease-in-out; // Opera 
-        
-              }
-            }
-              &:hover{
-                  .code-project--title{
-                      transform:translate(300px,0px);
-                      -ms-transform:translate(300px,0px); // IE 9 
-                      -moz-transform:translate(300px,0px); // Firefox 
-                      -webkit-transform:translate(300px,0px); // Safari and Chrome 
-                      -o-transform:translate(300px,0px); // Opera
-                  }
-        
-                  
-                  .code-project--img{
-                      opacity: 1;
-                  }
-               } 
-          }
-        }
-
-
-
-
-    
+            }}}    
 
   
   @media (min-width: 1200px) {
-    .code-project--list {
-        @include title-pc;
+    .codeproject--list-container {
+        .card--CodeProject{
+            max-width: 600px;
+            .card--text-container{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                max-width: 80vw;
+                .card--title{
+                    @include title-pc;
+                    align-items: flex-start;
+            
+                }
+                .card--text{
+                    @include text-pc;
+                    flex-wrap: wrap;
+                    align-items: flex-start;       
+                }
+                .card--icon{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                font-size: 15px;
+                
+
+                }
+            }}
 
     }
   }

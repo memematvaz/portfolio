@@ -4,23 +4,30 @@ import FilterButtons from './FilterButtons';
 import CodeProject from './CodeProject'
 import CODEPROJECTS from '../../services/CodeProjectsJSON';
 
-// import { useState } from 'rect';
+import { useState } from 'react';
 
 
 const CodeProjects = (props) => {
-/*  const [projects, setFilteredProjects] = useState(CODEPROJECTS); */
+const projects = CODEPROJECTS;
 
- const projects = CODEPROJECTS;
+const [filterProjects, setFilterProjects] = useState(null); 
+
+
 
  console.log(projects)
 
 
+
     return (
+        
         <>
           <Header/>
-          <FilterButtons/>
+          <FilterButtons                             
+ setFilterProjects={ this.state.setFilterProjects } />
           <ul className="codeproject--list-container">
-           {projects.map((projectObject) =>
+
+           {
+           projects.map((projectObject) =>
            <li className="codeproject--object"
                key={projectObject.id}>
            <CodeProject
