@@ -8,7 +8,7 @@ const CodeProject = (props) => {
       <div className="card--text-container">
         <h2 className="card--title">{props.title}</h2>
         <p className="card--text">{props.description}</p>
-        <div className="card--icon">
+        <div className="card--icon-container">
         <a className="card--icon" href={props.code}><i className="fab fa-github-alt"></i></a>
         <a className="card--icon" href={props.web}><i className="fas fa-laptop-code"></i></a>
         </div>

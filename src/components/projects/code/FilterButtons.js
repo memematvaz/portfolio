@@ -5,16 +5,16 @@ import React from 'react';
 
 const FilterButtons = () => {
 
-  const handleAllprojects = (props) => {
+/*   const handleAllprojects = (props) => {
     this.props.setFilterProjects(all);
-}
+} */
 
     return (
         
           <div className="button-container">
             <button className="button button-all"
                     id="all"
-                    onClick={ handleAllprojects }
+                   // onClick={ handleAllprojects }
                     >
               All projects
             </button>

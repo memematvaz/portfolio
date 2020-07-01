@@ -17,14 +17,11 @@
     font-family: $secondary-font;    
     font-size: 14px;
     color: black;
-    text-align: center;
-    padding: 15px;
     line-height: 20px;
 }
 @mixin text-pc {
     font-family: $secondary-font;    
     font-size: 18px;
     color: black;
-    text-align: start;
     line-height: 20px;
 }
