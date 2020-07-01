@@ -12,3 +12,20 @@
  {
    color: $second-color;
 }
+
+
+a {
+    color:$primary-color;
+}
+
+a:visited {
+    color:$primary-color;
+}
+a:hover,
+a:active,
+a:focus
+ {
+   color: $second-color;
+}
+
+

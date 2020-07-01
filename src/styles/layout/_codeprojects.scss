@@ -118,9 +118,17 @@
               width: 100%;
               position: relative;
               margin:  20px;
-              max-width: 700px;
+              max-width: 800px;
       
-        
+              .card--text-container{
+                width: 400px;
+                .card--title{
+                
+                    padding: 10px;
+                    padding-top: 0px;
+                
+                }
+                
               .code-project--img{
                   display:block;
                   width: 200px;
@@ -129,35 +137,29 @@
                   -webkit-border-radius: 150px;
                   -moz-border-radius: 150px; 
                
-              }      
+              }  }    
             }}}    
 
   
   @media (min-width: 1200px) {
     .codeproject--list-container {
         .card--CodeProject{
-            width: 600px;
+           
             .card--text-container{
-                display: flex;
-                flex-direction: column;
-                width: 80vw;
+                width: 600px;
                 .card--title{
                     @include title-pc;
-                    align-items: flex-start;
+                    padding: 10px;
+                    padding-top: 0px;
+                
             
                 }
                 .card--text{
                     @include text-pc;
-                    flex-wrap: wrap;
-                    text-align: start;              }
-                .card--icon{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                font-size: 15px;
-                
+             }
 
-                }
+
+                
             }}
 
     }
