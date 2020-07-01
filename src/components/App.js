@@ -7,7 +7,7 @@ import Header from './Header';
 import About from './About'
 import Main from './Main'
 import CodeProjects from './projects/code/CodeProjectsList'
-import PhotoProjects from './projects/PhotoProjects'
+import PhotoProjects from './projects/photo/PhotoProjectsList'
 import VideoProjects from './projects/VideoProjects'
 
 import {
