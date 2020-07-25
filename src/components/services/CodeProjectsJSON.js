@@ -1,7 +1,7 @@
 const CODEPROJECTS =[
 
     {
-        category: ['all', 'react', 'sass'],  
+        category: ['all', 'react', 'sass', 'uxui'],  
         image: '../images/reactrockets.png',
         title: 'Jara Amaro psicologist',
         details: {
@@ -14,7 +14,7 @@ const CODEPROJECTS =[
         },
     },
     {
-        category: ['all', 'react', 'sass'],  
+        category: ['all', 'react', 'sass', 'uxui'],   
         image: '../images/reactrockets.png',
         title: 'Portfolio',
         details: {
