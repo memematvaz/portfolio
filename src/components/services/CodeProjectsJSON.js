@@ -1,30 +1,34 @@
 const CODEPROJECTS =[
+
     {
-        id:1,
-        js:'react',
-        style: 'SASS',
-        api: true,
-        localStorage: true,
-        game: false,
-        image:'../../../images/photo.png',
-        title: 'Rick&Morty Character filter',
+        category: ['all', 'react', 'sass'],  
+        image: '../images/reactrockets.png',
+        title: 'Jara Amaro psicologist',
         details: {
-                tools:'React - SASS - API - LocalStorage',
-                description:'This application creates a catalogue of the characters from the TV series Rick&Morty extracting the information from an API. Find your favourite characters and get more information about them!',
+                tools:'React - SASS',
+                description:'Professional website of the psychologist Jara Amaro.',
                 links: {
-                    code:'https://github.com/memematvaz/Rick-Morty-character-filter-react',
-                    web:'http://beta.adalab.es/modulo-3-evaluacion-final-memematvaz/',
+                    code:'https://github.com/memematvaz/jara-amaro-psychologist',
+                    web:'https://memematvaz.github.io/jara-amaro-psychologist/',
+                },
+        },
+    },
+    {
+        category: ['all', 'react', 'sass'],  
+        image: '../images/reactrockets.png',
+        title: 'Portfolio',
+        details: {
+                tools:'React - SASS',
+                description:'My personal portfolio',
+                links: {
+                    code:'https://github.com/memematvaz/portfolio',
+                    web:'https://memematvaz.github.io/portfolio/',
                 },
         },
 
     },
     {
-        id:2,
-        js:'react',
-        style: 'SASS',
-        api: false,
-        localStorage: true,
-        game: false,
+        category: ['all', 'react', 'sass', 'localstorage'],  
         image: '../images/reactrockets.png',
         title: 'React Rockets Card Creator',
         details: {
@@ -38,12 +42,21 @@ const CODEPROJECTS =[
 
     },
     {
-        id:3,
-        js:'js',
-        style: 'Bootstrap',
-        api: true,
-        localStorage: false,
-        game: false,
+        category: ['all', 'react', 'sass', 'api', 'localstorage'],
+        image:'../../../images/photo.png',
+        title: 'Rick&Morty Character filter',
+        details: {
+                tools:'React - SASS - API - LocalStorage',
+                description:'This application creates a catalogue of the characters from the TV series Rick&Morty extracting the information from an API. Find your favourite characters and get more information about them!',
+                links: {
+                    code:'https://github.com/memematvaz/Rick-Morty-character-filter-react',
+                    web:'http://beta.adalab.es/modulo-3-evaluacion-final-memematvaz/',
+                },
+        },
+
+    },
+    {
+        category: ['all', 'js', 'bootstrap', 'api'],
         image:'../images/crypto.png',
         title: 'Crypcurrencies',
         details: {
@@ -57,50 +70,7 @@ const CODEPROJECTS =[
 
     },
     {
-        id:4,
-        js:'js',
-        style: '',
-        api: false,
-        localStorage: false,
-        game: true,
-        image:'../images/number.png',
-        title: 'Guess the number',
-        details: {
-                tools:'JS',
-                description:'This is a small game made with JavaScript in which a number is automatically generated and the user must guess it using the clues.',
-                links: {
-                    code:'https://github.com/memematvaz/Guess-the-number',
-                    web:'https://memematvaz.github.io/Guess-the-number/',
-                },
-        },
-
-    },
-    {
-        id:5,
-        js:'',
-        style: 'SASS',
-        api: false,
-        localStorage: false,
-        game: false,
-        image: '../images/sheckies.png',
-        title: 'Sheckies',
-        details: {
-                tools:'SASS',
-                description:'Corporate website fully developed with HTML5 and CSS using SASS.',
-                links: {
-                    code:'https://github.com/memematvaz/Sheckies',
-                    web:'http://beta.adalab.es/project-promo-i-module-1-team-4-afternoon/',
-                },
-        },
-
-    },
-    {
-        id:6,
-        js:'React',
-        style: '',
-        api: false,
-        localStorage: false,
-        game: true,
+        category: ['all', 'react', 'sass', 'game'],
         image:'../images/translator.png',
         title: 'Translator Mimimi',
         details: {
@@ -114,12 +84,21 @@ const CODEPROJECTS =[
 
     },
     {
-        id:7,
-        js:'',
-        style: 'SAAS',
-        api: false,
-        localStorage: false,
-        game: false,
+        category: ['all', 'sass'],
+        image: '../images/sheckies.png',
+        title: 'Sheckies',
+        details: {
+                tools:'SASS',
+                description:'Corporate website fully developed with HTML5 and CSS using SASS.',
+                links: {
+                    code:'https://github.com/memematvaz/Sheckies',
+                    web:'http://beta.adalab.es/project-promo-i-module-1-team-4-afternoon/',
+                },
+        },
+
+    },
+    {
+        category: ['all', 'sass'],
         image: '../../images/photo.png',
         title: 'Landing page',
         details: {
@@ -128,6 +107,20 @@ const CODEPROJECTS =[
                 links: {
                     code:'https://github.com/memematvaz/Landing-page',
                     web:'http://beta.adalab.es/modulo-1-evaluacion-final-memematvaz/',
+                },
+        },
+
+    },
+    {
+        category: ['all', 'js', 'game'],
+        image:'../images/number.png',
+        title: 'Guess the number',
+        details: {
+                tools:'JS',
+                description:'This is a small game made with JavaScript in which a number is automatically generated and the user must guess it using the clues.',
+                links: {
+                    code:'https://github.com/memematvaz/Guess-the-number',
+                    web:'https://memematvaz.github.io/Guess-the-number/',
                 },
         },
 

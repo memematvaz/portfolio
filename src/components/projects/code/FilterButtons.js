@@ -14,7 +14,7 @@ const FilterButtons = () => {
           <div className="button-container">
             <button className="button button-all"
                     id="all"
-                   // onClick={ handleAllprojects }
+                    onClick = { this.handleAllprojects }
                     >
               All projects
             </button>

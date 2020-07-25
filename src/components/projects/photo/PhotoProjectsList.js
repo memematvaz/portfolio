@@ -15,15 +15,15 @@ const PhotoProjects = () => {
               <section className="photoproject--serie-projects-element">
                 <div className="serie-projects-element--image-container ana"></div>
                 
-                Ana</section>
+                Take a bath</section>
                 <section className="photoproject--serie-projects-element">
                 <div className="serie-projects-element--image-container arturo"></div>
                 
-                arturo</section>
+                Night</section>
                 <section className="photoproject--serie-projects-element">
                 <div className="serie-projects-element--image-container cristi"></div>
                 
-                cristi</section>
+                Light and Shadow</section>
               </div>
           </div>
         </>
