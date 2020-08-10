@@ -7,22 +7,12 @@ import Header from './Header';
 import About from './About'
 import Main from './Main'
 import CodeProjects from './projects/code/CodeProjectsList'
-import PhotoProjects from './projects/photo/PhotoProjectsList'
-import VideoProjects from './projects/VideoProjects'
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { Route, Switch } from 'react-router-dom';
 
 
 const App = () => (
-  <div className="App">
-    <Router>
-
-    
-    
+  <div className="App">    
      <Switch>
       <Route exact path="/">
         <Header/>
@@ -40,29 +30,10 @@ const App = () => (
         <CodeProjects/>
     </Route> 
 
-    <Route exact path="/PhotoProjects">
-        <PhotoProjects/>
-    </Route> 
-
-    <Route exact path="/VideoProjects">
-        <VideoProjects/>
-    </Route> 
-
      </Switch>   
 
-
-     </Router>
   </div>
 )
 
 export default App;
 
-//JS diferente según el ancho de la pantalla
-/* var anchura = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-if (anchura <= 480) {
-    // estás en un móvil en vertical
-} else {
-    // móvil en horizontal, tablet o desktop
-} */
-
-//alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 

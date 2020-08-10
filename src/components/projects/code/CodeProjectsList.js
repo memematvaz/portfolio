@@ -59,11 +59,11 @@ const CodeProjects = () => {
                     </button>
             </div>
 
-            <ul className="codeproject--list-container">
+            <ul className="codeproject__list-container">
 
             {
             projects.map(projectObject => projectObject.filtered === true ? (
-                <li className="codeproject--object"
+                <li className="codeproject__object"
                 key={projectObject.id}>
             <CodeProject
                         image={projectObject.image}

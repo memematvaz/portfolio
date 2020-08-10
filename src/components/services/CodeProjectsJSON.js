@@ -1,8 +1,8 @@
 const CODEPROJECTS =[
 
     {
-        category: ['all', 'react', 'sass', 'uxui'],  
-        image: '../images/reactrockets.png',
+        category: ['all', 'react', 'sass', 'uxui', 'cms'],  
+        image: '../../../images/portrait.jpg',
         title: 'Jara Amaro psicologist',
         details: {
                 tools:'React - SASS',
@@ -15,11 +15,11 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'react', 'sass', 'uxui'],   
-        image: '../images/reactrockets.png',
+        image: '../../../images/code.png',
         title: 'Portfolio',
         details: {
                 tools:'React - SASS',
-                description:'My personal portfolio',
+                description:"My personal portfolio. Yes, you're looking at it! In constant renewal, always in progress.",
                 links: {
                     code:'https://github.com/memematvaz/portfolio',
                     web:'https://memematvaz.github.io/portfolio/',
@@ -47,7 +47,7 @@ const CODEPROJECTS =[
         title: 'Rick&Morty Character filter',
         details: {
                 tools:'React - SASS - API - LocalStorage',
-                description:'This application creates a catalogue of the characters from the TV series Rick&Morty extracting the information from an API. Find your favourite characters and get more information about them!',
+                description:'Catalogue of the characters of the Rick&Morty TV series using an API.',
                 links: {
                     code:'https://github.com/memematvaz/Rick-Morty-character-filter-react',
                     web:'http://beta.adalab.es/modulo-3-evaluacion-final-memematvaz/',
@@ -58,7 +58,7 @@ const CODEPROJECTS =[
     {
         category: ['all', 'js', 'bootstrap', 'api'],
         image:'../images/crypto.png',
-        title: 'Crypcurrencies',
+        title: 'Crypto currencies',
         details: {
                 tools:'JS - Bootstrap - API',
                 description:'This application uses an API to develop a cryptomoney quoter.',
@@ -84,7 +84,21 @@ const CODEPROJECTS =[
 
     },
     {
-        category: ['all', 'sass'],
+        category: ['all', 'js', 'bootstrap', 'localstorage'],
+        image: '../images/sheckies.png',
+        title: 'Ecommerce photoshots',
+        details: {
+                tools:['Js', 'Bootstrap', 'LocalStorage' ],
+                description:'Example of an ecommerce website where you can add different photo sessions to the shopping cart and remove them from it.',
+                links: {
+                    code:'https://github.com/memematvaz/shopping-cart-photoshoots-js',
+                    web:'https://memematvaz.github.io/shopping-cart-photoshoots-js/',
+                },
+        },
+
+    },
+    {
+        category: ['all', 'sass', 'cms'],
         image: '../images/sheckies.png',
         title: 'Sheckies',
         details: {
@@ -93,20 +107,6 @@ const CODEPROJECTS =[
                 links: {
                     code:'https://github.com/memematvaz/Sheckies',
                     web:'http://beta.adalab.es/project-promo-i-module-1-team-4-afternoon/',
-                },
-        },
-
-    },
-    {
-        category: ['all', 'sass'],
-        image: '../../images/photo.png',
-        title: 'Landing page',
-        details: {
-                tools:'SASS',
-                description:'Landing pagefully developed with HTML5 and CSS using SASS.',
-                links: {
-                    code:'https://github.com/memematvaz/Landing-page',
-                    web:'http://beta.adalab.es/modulo-1-evaluacion-final-memematvaz/',
                 },
         },
 
