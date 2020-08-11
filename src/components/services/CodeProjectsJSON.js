@@ -15,7 +15,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'react', 'sass', 'uxui'],   
-        image: '../../../images/code.png',
+        image: '../../../images/portfolio.jpg',
         title: 'Portfolio',
         details: {
                 tools:'React - SASS',
@@ -29,7 +29,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'react', 'sass', 'localstorage'],  
-        image: '../images/reactrockets.png',
+        image: '../../../images/descarga.gif',
         title: 'React Rockets Card Creator',
         details: {
                 tools:'React - SASS - LocalStorage',
@@ -43,7 +43,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'react', 'sass', 'api', 'localstorage'],
-        image:'../../../images/photo.png',
+        image:'../../../images/rickmorty.png',
         title: 'Rick&Morty Character filter',
         details: {
                 tools:'React - SASS - API - LocalStorage',
@@ -57,7 +57,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'js', 'bootstrap', 'api'],
-        image:'../images/crypto.png',
+        image:'../../../images/crypto.png',
         title: 'Crypto currencies',
         details: {
                 tools:'JS - Bootstrap - API',
@@ -71,7 +71,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'react', 'sass', 'game'],
-        image:'../images/translator.png',
+        image:'../../../images/mimimi2.png',
         title: 'Translator Mimimi',
         details: {
                 tools:'React',
@@ -85,7 +85,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'js', 'bootstrap', 'localstorage'],
-        image: '../images/sheckies.png',
+        image: '../../../images/photoshoots.jpg',
         title: 'Ecommerce photoshots',
         details: {
                 tools:['Js', 'Bootstrap', 'LocalStorage' ],
@@ -99,7 +99,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'sass', 'cms'],
-        image: '../images/sheckies.png',
+        image: '../../../images/sheckies.jpg',
         title: 'Sheckies',
         details: {
                 tools:'SASS',
@@ -113,7 +113,7 @@ const CODEPROJECTS =[
     },
     {
         category: ['all', 'js', 'game'],
-        image:'../images/number.png',
+        image:'../../../images/number.png',
         title: 'Guess the number',
         details: {
                 tools:'JS',
