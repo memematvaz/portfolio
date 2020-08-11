@@ -8,7 +8,8 @@
             border: 2px solid $primary-color;
             margin-bottom: 40px;
             max-width: 300px;
-
+            background-color: white;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.16); 
             &:hover{
                 border: 2px solid $second-color;
    
@@ -81,10 +82,12 @@
           
           .card__CodeProject{
             height: 520px;
+            width: 300px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-        
+            margin-left: 10px;
+            margin-right: 10px;
       
               .card__text-container{
                

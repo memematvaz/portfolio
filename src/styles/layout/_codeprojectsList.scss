@@ -66,8 +66,9 @@
         padding: 80px;
         padding-top: 50px;
       
-        display: grid;
-        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-gap: 1rem;
@@ -83,6 +84,7 @@
             font-size: 22px;
             padding: 10px;
             margin-right: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.16); 
         }
     }
     
