@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderAbout from './HeaderAbout';
+import image from '../images/aboutme.jpg';
 
 const About = () => {
 
@@ -7,7 +8,7 @@ const About = () => {
     return (
         <>
           <HeaderAbout/>
-          <div className="about__container">
+          <div className="about__container  container">
             <div className="about__image-container">
 
             </div>
@@ -16,7 +17,7 @@ const About = () => {
               <div className="about__text-container">
               I am a front-end developer with audiovisual creation background.
 
-              After some years working as a graphic designer, photographer and videographer I decided to reinvent myself as a front-end developer. I am passionate about constant learning, so the dynamism of the digital world is perfect for me.  
+              After some years working as a graphic designer, photographer and videographer I decided to reinvent myself as a front-end developer. I am passionate about constant learning so the dynamism of the digital world is perfect for me.  
               </div>
               <nav className="about__social-container--pc">
                     <ul>
