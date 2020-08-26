@@ -48,9 +48,6 @@ const CodeProjects = () => {
                     <button className="button button-API" active={filter === 'api'} onClick={() => setFilter('api')}>
                         API
                     </button>
-                    <button className="button button-LocalStorage" active={filter === 'localstorage'} onClick={() => setFilter('localstorage')}>
-                        LocalStorage
-                    </button>
                     <button className="button button-uxui" active={filter === 'uxui'} onClick={() => setFilter('uxui')}>
                         UX/UI
                     </button>

@@ -10,7 +10,7 @@ const Header = () => {
       <h2 class="title">María Mateo</h2>
     </Link>
     <Link className="link" to="/about">
-      <div>About</div>
+      <div>About me</div>
     </Link>
        </header>
 

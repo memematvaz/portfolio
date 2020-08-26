@@ -12,7 +12,7 @@ const Main = () => {
    <div className="main">
         <Link className="link" to="/codeProjects">
             <div className="code projects">
-                <img src={code} alt="personal computer" title="personal computer"  className="main__image-projects"></img>
+                <img src={code} alt="code projects" title="code projects"  className="main__image-projects"></img>
             </div>
         </Link>
     </div>
