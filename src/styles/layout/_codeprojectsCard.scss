@@ -48,9 +48,11 @@
             .card__icon-container{
                 display: flex;
                 flex-direction: row;
-                width: 70px;
+                width: 120px;
+                padding-top: 10px;
                 justify-content: space-evenly;
                 font-size: 18px;
+
 
                     i:hover{
                         transform: rotate(+10deg);
