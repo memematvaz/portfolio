@@ -69,10 +69,6 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-gap: 1rem;
-        grid-auto-rows: minmax(20vh, 600px);
 
 }    
 
@@ -93,13 +89,7 @@
         padding: 120px;
         padding-top: 50px;
       
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        grid-gap: 1rem;
-        grid-auto-rows: minmax(20vh, 600px);
-
+ 
 }    
 
 }

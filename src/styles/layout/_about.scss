@@ -169,13 +169,14 @@
             max-width: 1200px;
         
             .about__image-container{
-                height: 300px;
+                height: 280px;
                 width: 800px;
                 align-self: flex-end;
             }
         
             .about__text-container{
                 width: 800px;
+                
                 align-self: flex-start;
                 @include text-pc;
                 padding: 50px;
@@ -194,9 +195,11 @@
                 justify-content: space-between;
                 max-width: 1200px;
             .about__technical-skills, .about__design-skills, .about__soft-skills {
-                height: 330px;
+                height: 350px;
                 width: 300px;      
-                justify-content: space-between;         
+                justify-content: space-between;    
+                @include text-pc;
+
                 }
             }
             .about__social{

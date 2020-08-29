@@ -6,7 +6,7 @@ const CODEPROJECTS =[
         title: 'Jara Amaro psicologist',
         details: {
                 tools:'React - SASS',
-                description:'Professional website of the psychologist Jara Amaro.',
+                description:'Design and development of the professional website of psychologist Jara Amaro. The website describes her work and has a contact form. Made using React, SASS and Formspree.',
                 links: {
                     code:'https://github.com/memematvaz/jara-amaro-psychologist',
                     web:'https://memematvaz.github.io/jara-amaro-psychologist/',
@@ -19,7 +19,7 @@ const CODEPROJECTS =[
         title: 'Portfolio',
         details: {
                 tools:'React - SASS',
-                description:"My personal portfolio. Yes, you're looking at it! In constant renewal, always in progress.",
+                description:"My personal portfolio. Yes, you're looking at it!  Made using React and SASS. You can discover some of my projects made as a front-end developer, read about me and donwload my cv. In constant renewal, always in progress.",
                 links: {
                     code:'https://github.com/memematvaz/portfolio',
                     web:'https://memematvaz.github.io/portfolio/',
@@ -33,7 +33,7 @@ const CODEPROJECTS =[
         title: 'React Rockets Card Creator',
         details: {
                 tools:'React - SASS - LocalStorage',
-                description:'Create and customize your business cards and share them on twitter!',
+                description:'Web app that allows you to create business cards interactively and share them on Twitter. It was developed using React and SASS. It is the final group project of the Adalab bootcamp.',
                 links: {
                     code:'https://github.com/memematvaz/React-Rocktes-Card-Creator',
                     web:'https://memematvaz.github.io/React-Rocktes-Card-Creator/',

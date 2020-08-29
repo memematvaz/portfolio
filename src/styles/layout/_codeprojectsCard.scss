@@ -7,7 +7,7 @@
             padding: 30px;
             border: 2px solid $primary-color;
             margin-bottom: 40px;
-            max-width: 300px;
+            width: 300px;
             background-color: white;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.16); 
             &:hover{
@@ -30,11 +30,8 @@
         
             } 
 
-            .card__text-container{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                max-width: 80vw;
+          
+
                 .card__title{
                     @include title-tablet;
                     text-align: center;
@@ -47,7 +44,7 @@
                                         
                 }
                 
-            }
+            
             .card__icon-container{
                 display: flex;
                 flex-direction: row;
@@ -81,20 +78,14 @@
     .codeproject__list-container {
           
           .card__CodeProject{
-            height: 520px;
-            width: 300px;
+            height: 550px;
+            width: 320px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             margin-left: 10px;
             margin-right: 10px;
                   
-              .card__text-container{
-               
-                .card__title{
-        
-                
-                }
                 
               .code-project__img{
                   width: 200px;
@@ -102,22 +93,22 @@
                   border-radius: 150px;
                
               }  
-            }
+            
             
             .card__icon-container{
                 margin-top: 10px;
                 width: 150px;
                 font-size: 25px;
             }
-            }}}    
-
+            }}   
+        }
   
   @media (min-width: 1200px) {
     .codeproject__list-container {
         .card__CodeProject{
-           
-            .card__text-container{
-               
+            height: 600px;
+            width: 370px;
+
                 .card__title{
                     @include title-pc;
                     padding: 10px;
@@ -131,7 +122,7 @@
 
 
                 
-            }}
+            }
 
     }
   }
