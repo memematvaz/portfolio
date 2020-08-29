@@ -102,3 +102,106 @@
         }
     }
 }
+
+
+@media (min-width: 768px) {
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .about__image-container{
+            height: 300px;
+        }
+    
+        .about__text-container{
+
+        }
+        .about__social-container--pc{
+            display: none;
+        }
+
+        .about__skills--container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 80vw;
+            .about__skills--title{
+                @include title-pc;
+                text-align: center;
+                padding-bottom: 15px;
+            }
+        .about__technical-skills, .about__design-skills, .about__soft-skills {
+            height: 330px;
+            width: 300px;      
+            justify-content: space-between;         
+            }
+        }
+        .about__social{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 50px;
+            border: 2px solid $primary-color;
+            margin-bottom: 40px;
+            background-color: white;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.16);
+            @include text; 
+            font-size: 25px;            
+            width: 80vw;
+            text-align: center; 
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .about__container{
+            max-width: 1200px;
+        
+            .about__image-container{
+                height: 300px;
+                width: 800px;
+                align-self: flex-end;
+            }
+        
+            .about__text-container{
+                width: 800px;
+                align-self: flex-start;
+                @include text-pc;
+                padding: 50px;
+                text-align: start; 
+                align-items: start;
+                .about__text{
+                    padding-bottom: 15px;
+                    text-align: start; 
+                }
+            }
+
+            .about__skills--container{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                max-width: 1200px;
+            .about__technical-skills, .about__design-skills, .about__soft-skills {
+                height: 330px;
+                width: 300px;      
+                justify-content: space-between;         
+                }
+            }
+            .about__social{
+                max-width: 1200px;
+            }
+        }
+    }
+}

@@ -8,28 +8,17 @@ const About = () => {
     return (
         <>
           <HeaderAbout/>
+          <div className="about">
           <div className="about__container  container">
             <div className="about__image-container">
 
             </div>
-
-            <div className="about__text-social--container">
               <div className="about__text-container">
-              <p className="about__text">I am a front-end developer with audiovisual creation background.</p>
+                <p className="about__text">I am a front-end developer with audiovisual creation background.</p>
 
-              <p>After some years working as a graphic designer, photographer and videographer I decided to reinvent myself as a front-end developer. I am passionate about constant learning so the dynamism of the digital world is perfect for me.  </p>
+                <p>After some years working as a graphic designer, photographer and videographer I decided to reinvent myself as a front-end developer. I am passionate about constant learning so the dynamism of the digital world is perfect for me.  </p>
               </div>
-              <nav className="about__social-container--pc">
-                    <ul className="about__social">
-                      <li><a className="social__icon" href="https://github.com/memematvaz" aria-label="linkedin" title="linkedin" alt="linkedin" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
-                      <li><a className="social__icon" href="https://github.com/memematvaz" aria-label="github" title="github" alt="github" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-alt"></i></a></li>
-                      <li><a className="social__icon" href="https://twitter.com/mnemearie" aria-label="twitter" title="twitter" alt="twitter" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitter"></i></a></li>
-                      <li><a className="social__icon" href="https://www.instagram.com/mnemearie/" aria-label="instagram" title="instagram" alt="instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                      <li><a className="social__icon" href="https://github.com/memematvaz" aria-label="medium" title="medium" alt="medium" rel="noopener noreferrer" target="_blank"><i class="fab fa-medium-m"></i></a></li>
-                    </ul>
-                </nav>
-
-            </div>
+              
             <div className="about__skills--container">
               <ul className="about__technical-skills">
                 <h3 className="about__skills--title">Technical Skills</h3>
@@ -72,6 +61,7 @@ const About = () => {
               <li><a className="social__icon" href="https://github.com/memematvaz" aria-label="medium" title="medium" alt="medium" rel="noopener noreferrer" target="_blank"><i class="fab fa-medium-m"></i></a></li>
             </ul>
         </nav>
+        </div>
         </div>
         </>
   
