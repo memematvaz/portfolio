@@ -43,7 +43,7 @@
             -moz-transition: 0.3s; // Firefox
             -ms-transition: 0.3s; // Safari and Chrome 
             -o-transition: 0.3s; // Opera 
-        
+           
     }
 
 }
@@ -62,7 +62,7 @@
 
         }
         .code{
-            height: 100vh;
+            height: calc(100vh - 80px);
             filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.16));
             }
 
@@ -76,9 +76,13 @@
   @media (min-width: 1200px) {
     .main{
         @include title-pc;
+        .code{
+            height: calc(100vh - 80px);
+            filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.16));
+            }
         .main__image-projects{
             width: auto;
-            height: calc(100vh - 60px);
+            height: calc(100vh - 130px);
         }
     }
   }
