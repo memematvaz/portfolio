@@ -6,7 +6,7 @@
     @include title-mobile;
     filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.16));
     a:hover{
-        color: $primary-color;
+        
         filter: drop-shadow(0 20px 60px $second-color);
     }
 }
@@ -23,7 +23,7 @@
   @media (min-width: 1200px) {
     .header {
         @include title-pc;
-        font-size: 45px;
+        font-size: 50px;
 
     }
   }

@@ -5,17 +5,17 @@
 
 @mixin title-tablet {
     font-family: $primary-font;    
-    font-size: 25px;
+    font-size: 32px;
 }
 
 @mixin title-pc{
     font-family: $primary-font;    
-    font-size: 30px;
+    font-size: 35px;
 }
 
 @mixin text {
     font-family: $secondary-font;    
-    font-size: 14px;
+    font-size: 15px;
     color: black;
 line-height: 1.5;
     
