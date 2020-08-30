@@ -12,11 +12,20 @@
         display:flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
-       
+        justify-content: center;     
+    }    
+
+
+    .code{
+        height: 100vh;
+        filter: drop-shadow(0 20px 60px rgba(0, 0, 0, 0.16));
+        }
+
+    .main__image-projects{
+        width: 100%;
+        height: auto;
     }
-    
-    }
+}
     
     .main__image-projects{
         width: 100%;
