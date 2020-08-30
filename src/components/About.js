@@ -1,6 +1,5 @@
 import React from 'react';
 import HeaderAbout from './HeaderAbout';
-import image from '../images/aboutme.jpg';
 
 const About = () => {
 
