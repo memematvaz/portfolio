@@ -36,6 +36,9 @@ const CodeProjects = () => {
                     <button className="button button-React" active={filter === 'react'} onClick={() => setFilter('react')}>
                     React
                     </button>
+                    <button className="button button-Vue" active={filter === 'vue'} onClick={() => setFilter('vue')}>
+                    Vue
+                    </button>
                     <button className="button button-JS" active={filter === 'js'} onClick={() => setFilter('js')}>
                     JS
                     </button>

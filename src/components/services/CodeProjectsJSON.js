@@ -1,5 +1,17 @@
 const CODEPROJECTS =[
-
+    {
+        category: ['all', 'vue', 'sass'],  
+        image: './images/vegan.jpg',
+        title: 'Asian vegan food',
+        details: {
+                tools:'Vue - SASS',
+                description:'This website is an ecommerce simulator of Asian Vegan food with shopping cart. I developed it with Vue using Vuex. I used the Flickity library for the Hero. The images and recipes of the dishes belong to the food instagrammer Woon Heng.',
+                links: {
+                    code:'https://github.com/memematvaz/technical-test-vue',
+                    web:'https://asian-vegan-food.netlify.app/',
+                },
+        },
+    },
     {
         category: ['all', 'react', 'sass', 'uxui', 'cms'],  
         image: './images/portrait.jpg',
