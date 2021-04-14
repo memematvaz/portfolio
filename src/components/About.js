@@ -24,9 +24,9 @@ const About = () => {
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>SAAS</li>
-                <li>Bootstrap</li>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>Vue</li>
                 <li>Git</li>
               </ul>
               <ul className="about__design-skills">
@@ -54,12 +54,10 @@ const About = () => {
           <nav className="about__social-container">
             <ul className="about__social">
               <li><a className="social__icon" href="./cv.pdf" aria-label="download cv" title="cv" alt="cv" rel="noopener noreferrer" target="_blank"><i class="far fa-file"></i></a></li>
-              <li><a className="social__icon" href="https://github.com/memematvaz" aria-label="linkedin" title="linkedin" alt="linkedin" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
-              <li><a className="social__icon" href="https://github.com/memematvaz" aria-label="github" title="github" alt="github" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-alt"></i></a></li>
+              <li><a className="social__icon" href="https://es.linkedin.com/in/maria-mateo-vazquez" aria-label="linkedin" title="linkedin" alt="linkedin" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
+              <li><a className="social__icon" href="https://github.com/mnemearie" aria-label="github" title="github" alt="github" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-alt"></i></a></li>
               <li><a className="social__icon" href="https://twitter.com/mnemearie" aria-label="twitter" title="twitter" alt="twitter" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitter"></i></a></li>
-              <li><a className="social__icon" href="https://www.instagram.com/mnemearie/" aria-label="instagram" title="instagram" alt="instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a></li>
-              <li><a className="social__icon" href="https://github.com/memematvaz" aria-label="medium" title="medium" alt="medium" rel="noopener noreferrer" target="_blank"><i class="fab fa-medium-m"></i></a></li>
-            </ul>
+              <li><a className="social__icon" href="https://www.instagram.com/mnemearie/" aria-label="instagram" title="instagram" alt="instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a></li>            </ul>
         </nav>
         </div>
         </div>
